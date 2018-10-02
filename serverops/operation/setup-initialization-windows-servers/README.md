@@ -1,4 +1,0 @@
-# Setup Initialization - Windows Servers
-
-
-
