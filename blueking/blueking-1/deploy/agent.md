@@ -29,10 +29,10 @@
    net share
    ```
 
-7. All P-agents's hostname-IP required in proxy's /etc/hosts
-8. Test remote execute on proxy:
+7. Test remote execute on proxy:
 
-   ```text
+   ```bash
+   #All P-agents's hostname-IP required in proxy's /etc/hosts
    cd /opt/py27/bin
    ./wmiexec.py -debug Administrator:password@P-Agent-Hostname 'dir C:\'
    ```
