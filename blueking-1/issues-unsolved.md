@@ -12,7 +12,9 @@
 
 ## Windows agent uninstall
 
-Can not uninstall
+Can not uninstall.
+
+If directly delete agent info on DB side, then proxy will still keep finding the lost agent. In proxy's /etc/log/gse/transit-\[date\].log can see this error.
 
 ## Linux agent 
 
