@@ -47,3 +47,11 @@
    ./wmiexec.py -debug Administrator:password@P-Agent-Hostname 'dir C:\'
    ```
 
+## After install 
+
+1.Disable  root login on linux
+
+2.Disable unnecessary rights on windows.
+
+
+
