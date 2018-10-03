@@ -2,12 +2,22 @@
 
 1. Cert updates to newest on blueking server. And restart service.
 2. Need add account "admin" to business-operation membership.
-3. Inbound , set both on PA and windows firewall and proxy's iptables
-4. ```text
+3. For install linux agent 
+
+   Must  allow root login
+
+   ```text
+   vim /etc/ssh/sshd_config
+   "PermitRootLogin yes"
+   service sshd restart
+   ```
+
+4. Inbound , set both on PA and windows firewall and proxy's iptables
+5. ```text
    proxy to agent: port TCP:60020-60030 UDP：60020-60030 
    proxy to agent windows: port TCP:22,139,445,49154(wmiexec)
    ```
-5. How to open 139,445 on windows
+6. How to open 139,445 on windows
 
    ```bash
    #open TCP/IP Netbios and its service
@@ -20,7 +30,7 @@
    netstat -ano | findstr "445"
    ```
 
-6. admin$ need on P-Agent, set below and reboot to take effect.
+7. admin$ need on P-Agent, set below and reboot to take effect.
 
    ```bash
    REG ADD HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters /v AutoShareWks /t REG_DWORD /d 1 /f
@@ -29,7 +39,7 @@
    net share
    ```
 
-7. Test remote execute on proxy:
+8. Test remote execute on proxy:
 
    ```bash
    #All P-agents's hostname-IP required in proxy's /etc/hosts
