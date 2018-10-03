@@ -34,5 +34,7 @@ C:\7z.dll
 
 C:\7z.exe
 
+C:\normaliz.dll
+
 C:\winagent\_install
 
