@@ -8,3 +8,7 @@
 
 /data/bkee/install
 
+## Job script on agent
+
+C：\tmp\bkjob\
+
