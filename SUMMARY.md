@@ -16,7 +16,7 @@
     * [Proxy](blueking/blueking-1/deploy/proxy.md)
     * [Agent](blueking/blueking-1/deploy/agent.md)
     * [Paths](blueking/blueking-1/deploy/paths.md)
-  * [Issues unsolved](blueking/blueking-1/windows-job-can-not-run-as-administrator.md)
+  * [Issues unsolved](blueking/blueking-1/issues-unsolved.md)
   * [Issues](blueking/blueking-1/issues/README.md)
     * [Windows job can not run as administrator](blueking/blueking-1/issues/windows-job-can-not-run-as-administrator.md)
     * [some  windows\(cygwin\) shows "cp is not recognized "](blueking/blueking-1/issues/some-windows-cygwin-shows-cp-is-not-recognized.md)
