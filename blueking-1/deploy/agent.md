@@ -53,5 +53,17 @@
 
 2.Disable unnecessary rights on windows.
 
+```
+keep proxy to agent: port TCP:60020-60030 UDP：60020-60030 
+#open TCP/IP Netbios and its service
+wmic nicconfig where TcpipNetbiosOptions=0 call SetTcpipNetbios 2
+wmic nicconfig where TcpipNetbiosOptions=1 call SetTcpipNetbios 2
+sc stop lmhosts
+sc start lmhosts
+REG ADD HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters /v AutoShareWks /t REG_DWORD /d 0 /f
+REG ADD HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters /v AutoShareServer /t REG_DWORD /d 0 /f
+
+```
+
 
 
