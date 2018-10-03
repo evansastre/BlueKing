@@ -1,15 +1,5 @@
 # Issues unsolved
 
-## 1.Windows job can not run as administrator
-
-![](../../.gitbook/assets/image-1.png)
-
-Now can only run as system.
-
-
-
-![](../../.gitbook/assets/image.png)
-
 ##  2.Windows agent install 
 
 1. windows（无cygwin）方式安装显示成功，但实际在作业系统中显示未安装，服务也未正常启动。
