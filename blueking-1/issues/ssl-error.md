@@ -1,6 +1,6 @@
 # SSL error
 
-![SSL error on web](../../../.gitbook/assets/screen-shot-2018-09-21-at-10.59.22.png)
+![SSL error on web](../../.gitbook/assets/screen-shot-2018-09-21-at-10.59.22.png)
 
 Issue "SSL error: SSL configuration file \[/data/bkee/cert/job\_esb\_api\_client.crt, /data/bkee/cert/job\_esb\_api\_client.key\] does not exist or is illegal":
 

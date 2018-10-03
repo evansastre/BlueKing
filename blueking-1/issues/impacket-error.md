@@ -1,6 +1,6 @@
 # Impacket  Error
 
-![](../../../.gitbook/assets/screen-shot-2018-09-25-at-10.53.05.png)
+![](../../.gitbook/assets/screen-shot-2018-09-25-at-10.53.05.png)
 
 This script in on proxy server: /opt/py27/bin/wmiexec.py
 

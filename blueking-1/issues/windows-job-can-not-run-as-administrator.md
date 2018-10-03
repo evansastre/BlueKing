@@ -8,5 +8,5 @@ Solve:
 
 What we see as administrator is not for current scope of business. We should manually add real "Administrator".
 
-![](../../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
