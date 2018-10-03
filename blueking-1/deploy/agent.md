@@ -2,7 +2,7 @@
 
 1. Cert updates to newest on blueking server. And restart service.
 2. Need add account "admin" to business-operation membership.
-3. Inbound , set both on PA and windows firewall
+3. Inbound , set both on PA and windows firewall and proxy's iptables
 4. ```text
    proxy to agent: port TCP:60020-60030 UDP：60020-60030 
    proxy to agent windows: port TCP:22,139,445,49154(wmiexec)
