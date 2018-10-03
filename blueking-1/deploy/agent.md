@@ -12,7 +12,7 @@
    service sshd restart
    ```
 
-4. Inbound , set both on PA and windows firewall and proxy's iptables
+4. Inbound , set both on PA and windows firewall and  iptables
 5. ```text
    proxy to agent: port TCP:60020-60030 UDP：60020-60030 
    proxy to agent windows: port TCP:22,139,445,49154(wmiexec)
