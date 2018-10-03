@@ -34,5 +34,5 @@ C:\7z.dll
 
 C:\7z.exe
 
-
+C:\winagent\_install
 
