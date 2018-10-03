@@ -20,7 +20,7 @@ proxy to GSE : port TCP:48533,58625,58725,58930,10020 UDP:10020,10030
 !proxy to Nginx: port TCP:80 
 proxy to proxy : port TCP:58930,10020 UDP:10020,10030
 
-agent to proxy: port TCP:48533,58625,59173,10020 UDP:10020,10030 
+agent to proxy: port TCP:(48668)48533,58625,59173,10020 UDP:10020,10030 
 proxy to agent: port TCP:60020-60030 UDP：60020-60030 
 proxy to agent windows: port TCP:22,139,445,49154(wmiexec)
 agent to agent: port TCP:60020-60030 UDP：60020-60030
