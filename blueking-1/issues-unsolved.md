@@ -40,11 +40,13 @@ C:\7z.exe
 
 C:\normaliz.dll
 
+C:\winagent\_install
+
 ## CMDB too long to response
 
 Paas login will time out, and unable to login last several minutes.
 
 
 
-C:\winagent\_install
+
 
