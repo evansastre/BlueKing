@@ -13,5 +13,10 @@ vim /etc/sysconfig/iptables
 #
 systemctl restart iptables
 systemctl enable iptables
+
+#change time zone
+#setup ntp
+#disable SELinux
+#config yum source
 ```
 

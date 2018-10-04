@@ -18,11 +18,12 @@
     * [Windows job can not run as administrator](blueking-1/issues/windows-job-can-not-run-as-administrator.md)
     * [some  windows\(cygwin\) shows "cp is not recognized "](blueking-1/issues/some-windows-cygwin-shows-cp-is-not-recognized.md)
     * [Restart service](blueking-1/issues/restart-service.md)
-    * [SSL error](blueking-1/issues/ssl-error.md)
+    * [SSL error when start installation job](blueking-1/issues/ssl-error.md)
     * [Account 【Admin】 have no rights to operate](blueking-1/issues/account-admin-have-no-rights-to-operate.md)
     * [wmiexec.py Not Found Error](blueking-1/issues/wmiexec.py-error.md)
     * [Impacket  Error](blueking-1/issues/impacket-error.md)
     * [no success ip need register to cmdb](blueking-1/issues/no-success-ip-need-register-to-cmdb.md)
+    * [SSL error on proxy log file](blueking-1/issues/ssl-error-on-proxy.md)
   * [Architecture](blueking-1/architecture.md)
   * [Guide link](blueking-1/guide-link.md)
 

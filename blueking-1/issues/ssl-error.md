@@ -1,4 +1,4 @@
-# SSL error
+# SSL error when start installation job
 
 ![SSL error on web](../../.gitbook/assets/screen-shot-2018-09-21-at-10.59.22.png)
 

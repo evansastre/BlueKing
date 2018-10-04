@@ -12,9 +12,11 @@
 
 ## Windows agent uninstall
 
-Can not uninstall.
+Windows server cannot uninstall/remove blueking agent 
 
 If directly delete agent info on DB side, then proxy will still keep finding the lost agent. In proxy's /etc/log/gse/transit-\[date\].log can see this error.
+
+![Keep check version and timeout](../.gitbook/assets/screen-shot-2018-10-03-at-11.46.15.png)
 
 ## Linux agent 
 
@@ -24,7 +26,7 @@ If directly delete agent info on DB side, then proxy will still keep finding the
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-##   Windows Agent Install setup files will left
+##   Windows Agent Install setup files will be left
 
 C:\gse\_client-windows-x86.tgz
 
@@ -38,11 +40,11 @@ C:\7z.exe
 
 C:\normaliz.dll
 
-C:\winagent\_install
-
 ## CMDB too long to response
 
 Paas login will time out, and unable to login last several minutes.
 
 
+
+C:\winagent\_install
 
