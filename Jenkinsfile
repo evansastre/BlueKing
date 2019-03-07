@@ -1,19 +1,22 @@
 #! /vagrant
 
 pipeline {
-    agent { docker 'maven:3.3.3' }
+    agent none
     stages {
-        stage('build') {
+        stage('java') {
+            agent { 
+                docker 'maven:3.3.3' 
+            }
             steps {
                 sh 'echo  starting ...'
                 sh 'mvn --version'
                 sh 'echo ending...'
             }
         }
-    }
-    agent { docker 'php' }
-    stages {
-        stage('build') {
+        stage('php') {
+            agent { 
+                docker 'php'
+            }
             steps {
                 sh 'echo  starting ...'
                 sh 'php --version'
@@ -21,4 +24,6 @@ pipeline {
             }
         }
     }
+        
+      
 }
