@@ -1,29 +1,19 @@
-#! /vagrant
-
 pipeline {
     agent none
     stages {
-        stage('java') {
+        stage('apache') {
             agent { 
-                docker 'maven:3.3.3' 
+                docker 'httpd' 
             }
             steps {
-                sh 'echo  starting ...'
-                sh 'mvn --version'
-                sh 'echo ending...'
+                sh 'yum -y install tomcat'
+                sh 'yum -y install wget'
+                sh 'cd /usr/share/tomcat/webapps'
+                sh 'wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war  & \ 
+                    systemctl restart tomcat'
+                    
             }
         }
-        stage('php') {
-            agent { 
-                docker 'php'
-            }
-            steps {
-                sh 'echo  starting ...'
-                sh 'php --version'
-                sh 'echo ending...'
-            }
-        }
-    }
         
-      
+    }     
 }
