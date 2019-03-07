@@ -1,28 +1,12 @@
 #! /vagrant
 
 pipeline {
-    agent any
+    agent { docker 'maven:3.3.3' }
     stages {
         stage('build') {
             steps {
-                echo 'Building'
-                sh 'echo "hello world"'
-                sh '''
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                '''
+                sh 'mvn --version'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-        
     }
 }
